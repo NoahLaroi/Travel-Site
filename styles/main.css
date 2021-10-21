@@ -1,0 +1,74 @@
+#navSection {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.title {
+    width: 500px;
+    margin-top: 17px;
+}
+
+#heroSection {
+    background-color: #FEFAF5;
+}
+
+.heroSectionSlogan {
+    padding-top: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navLink {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.heroSection-img-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.heroSection-img {
+    height: 250px;
+    width: 250px;
+}
+
+button {
+    background-color: #DB7A4E;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DB7A4E;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+}
+
+
+/*.recommendationSection {}*/
+
+#recommendationSection-cards {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recommendationSection-img {
+    margin: 20px;
+    height: 400px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px, 4px, 4px, rgba(0, 0, 0, 0.2);
+}
