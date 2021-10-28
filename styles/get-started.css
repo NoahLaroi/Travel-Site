@@ -1,3 +1,9 @@
+label {
+    font-size: x-large;
+    text-align: center;
+    width: 75%;
+}
+
 .mainSection {
     display: flex;
     flex-flow: row wrap;
