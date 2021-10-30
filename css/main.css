@@ -1,0 +1,97 @@
+/* Nav & Hero Section Styles */
+
+#navSection {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: #ffffff;
+}
+
+#heroSection {
+    background-color: #FEFAF5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.heroSectionSlogan {
+    padding-top: 50px;
+    width: 75%;
+}
+
+.heroSloganContainer {
+    text-align: left;
+    padding-left: 60px;
+}
+
+.heroSubtextContainer {
+    padding-right: 40px;
+}
+
+.heroButtonImgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+}
+
+#heroSectionImg {
+    height: 300px;
+    width: 300px;
+}
+
+.heroButtonAndImgContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroSectionImg {
+    height: 250px;
+    width: 250px;
+}
+
+
+/* End Hero Section Styles */
+
+
+/* Recommendation Section Styles */
+
+.recommendationSectionTitle {
+    padding-left: 70px;
+}
+
+#recommendationSectionCardsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#recommendationSectionCardsContainer a {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: flex-start;
+    text-align: right;
+    color: #ffffff;
+    font-size: 16pt;
+    /* text-align: end;  */
+}
+
+#recommendationSectionImg1 {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+}
+
+#recommendationSectionImg2 {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: cover;
+}
+
+#recommendationSectionImg3 {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: cover;
+}

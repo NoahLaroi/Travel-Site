@@ -1,0 +1,19 @@
+/* Body Styling Relevant to Page */
+
+h1 {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    font-size: 56pt;
+    font-weight: bold;
+}
+
+.bodySectioncardBackground {
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

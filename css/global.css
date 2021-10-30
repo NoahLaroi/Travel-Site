@@ -1,0 +1,222 @@
+    /* Generals  */
+    
+    html {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    body {
+        color: #335576;
+        margin: 0;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #DB7A4E;
+    }
+    
+    .active {
+        text-decoration: underline;
+        text-decoration-color: #DB7A4E;
+        text-decoration-thickness: 5px;
+    }
+    /* Navingation Section and Header Elements Styling */
+    
+    .title {
+        width: 150px;
+        margin-top: 17px;
+        padding-left: 20px;
+    }
+    
+    #navSection {
+        display: flex;
+        flex-flow: row wrap;
+        height: 25%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .navLink {
+        margin-right: 20px;
+        padding: 20px;
+    }
+    /* Body Section/Card Styling */
+    
+    h3 {
+        border-style: solid;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        border-color: #335576;
+        padding-bottom: 10px;
+    }
+    
+    .bodySectionbeginner {
+        margin-top: 20px;
+    }
+    
+    .bodySectionTimeCardContainer {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .bodySectionTimeCardlabel {
+        background-color: #FEFAF5;
+        /* background-size: cover; */
+        width: 75%;
+    }
+    
+    .bodySectionTimeCardSupraContentBox {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        margin: 40px;
+        padding: 20px;
+    }
+    
+    .bodySectiontimeCard {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 20px 0px 20px 0px;
+        height: 400px;
+        width: 200px;
+        margin: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .recommendationSectionImg {
+        margin: 20px;
+        height: 400px;
+        width: 200px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    /* Only for Main Page and Booking Page  */
+    
+    button {
+        background-color: #DB7A4E;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #DB7A4E;
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+        color: white;
+    }
+    /* Footer Element Styling */
+    
+    .footerSection {
+        background-color: #FEFAF5;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+    
+    .footerSectionHeadingContainer {
+        width: 100%;
+    }
+    
+    #footerSectionHeadingSocialContainer {
+        height: 72px;
+    }
+    
+    .footerSectionDayP {
+        color: #DB7A4E;
+        padding-right: 80px;
+        padding-left: 5px;
+    }
+    
+    .footerSectionDayInfo {
+        padding: 5px;
+    }
+    
+    .footerSectionContact {
+        display: flex;
+        flex-direction: column;
+        border: 1px;
+        /* border-style: solid;
+    border-color: black; */
+    }
+    
+    .footerSectionHourDays {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footerSectionHourTimes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footerSectionHours {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px;
+        /* border-style: solid;
+    border-color: black; */
+        width: 50%;
+    }
+    
+    .footerSectionHours h2 p {
+        font-size: 11pt;
+    }
+    
+    .footerSectionSocial {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 1px;
+        /* border-style: solid;
+    border-color: black; */
+        width: 25%;
+    }
+    
+    .footerSectionIconAnchor {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footerSectionIcon {
+        height: 30px;
+        width: 30px;
+        columns: 4;
+        margin: 5px;
+        padding: 3.5px;
+    }
